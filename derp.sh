@@ -11,8 +11,8 @@ cd ccache-4.10-linux-x86_64
 sudo cp ccache /usr/bin/
 sudo ln -sf ccache /usr/bin/gcc
 sudo ln -sf ccache /usr/bin/g++
-rm -rf ccache-4.10-linux*
 cd ..
+rm -rf ccache-4.10-linux*
 ccache --version
 
 export USE_CCACHE=1
