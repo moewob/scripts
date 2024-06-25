@@ -33,7 +33,7 @@ rm -rf kernel/xiaomi
 rm -rf vendor/xiaomi
 
 # Clone DerpFest
-repo init -u https://github.com/DerpFest-AOSP/manifest.git -b 14 --depth=1
+repo init -u https://github.com/DerpFest-AOSP/manifest.git -b 14 --depth=1 --git-lfs
 
 # Clone local_manifests repository
 git clone https://github.com/moewob/local_manifests --depth 1 -b derp .repo/local_manifests
